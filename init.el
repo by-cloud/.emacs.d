@@ -43,10 +43,8 @@
     ))
 
 ;;aggresive-indent
-(use-package hungry-delete
-  :ensure t
-  :config
-  (global hungry-delete-mode))
+(require 'hungry-delete)
+(global-hungry-delete-mode)
 (use-package expand-region
   :ensure t
   :config
